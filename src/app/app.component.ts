@@ -16,10 +16,10 @@ export class AppComponent {
   }
   getAverageColorState() {
     return this.avgNoOfBooks < 5;
-}
+  }
 
-public averageValueState = {
-"text-valid": this.avgNoOfBooks >= 5,
-"text-error": this.avgNoOfBooks < 5
-};
+  public averageValueState = {
+    "text-valid": this.avgNoOfBooks >= 5,
+    "text-error": this.avgNoOfBooks < 5
+  };
 }
