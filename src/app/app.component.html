@@ -1,0 +1,12 @@
+<hello name="{{ name }}"></hello>
+<h1> The best place to search for your favourite books </h1>
+
+<em>{{userName}}:</em>
+<span [ngClass]="averageValueState">{{getReadBooksAvg()}}</span>
+
+<div id="menu-section">
+<h3>Menu</h3>
+</div>
+
+<app-filters> </app-filters>
+<app-content> </app-content>

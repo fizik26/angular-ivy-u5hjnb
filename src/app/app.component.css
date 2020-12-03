@@ -1,0 +1,19 @@
+p {
+  font-family: Lato;
+}
+
+#menu-section {
+  border-radius: 0ex;
+  border-style: double;
+  width: 92%;
+  margin-left: 2.5%;
+  padding-left: 2.5%;
+  margin-bottom: 1.5%;
+}
+
+.text-error {
+color: red;
+}
+.text-valid {
+color: green;
+}
